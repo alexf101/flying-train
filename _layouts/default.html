@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&family=Nunito+Sans:wght@400;500;600;700&display=swap">
+  <style>
+    :root {
+      --ground: #F7F6F2;
+      --surface: #EFEDE7;
+      --ink: #1E2A3A;
+      --ink-soft: #5A6578;
+      --ink-faint: #8E95A3;
+      --accent: #B8862E;
+      --accent-soft: rgba(184, 134, 46, 0.12);
+      --teal: #3A7575;
+      --border: rgba(30, 42, 58, 0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ground: #141A24;
+        --surface: #1C2330;
+        --ink: #E2E0DB;
+        --ink-soft: #9BA3B2;
+        --ink-faint: #6B7385;
+        --accent: #D4A245;
+        --accent-soft: rgba(212, 162, 69, 0.14);
+        --teal: #5AADAD;
+        --border: rgba(226, 224, 219, 0.08);
+      }
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--ground);
+      color: var(--ink);
+      font-family: 'Nunito Sans', -apple-system, sans-serif;
+      font-size: 17px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 6rem;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Bitter', Georgia, serif;
+      color: var(--ink);
+      text-wrap: balance;
+    }
+
+    h1 { font-size: 2.2rem; font-weight: 700; line-height: 1.2; margin-bottom: 1rem; }
+    h2 { font-size: 1.4rem; font-weight: 500; margin: 2rem 0 0.8rem; }
+    h3 { font-size: 1.1rem; font-weight: 500; margin: 1.5rem 0 0.6rem; }
+
+    p { margin-bottom: 1rem; color: var(--ink-soft); max-width: 600px; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    ul, ol { margin: 0 0 1rem 1.2rem; color: var(--ink-soft); }
+    li { margin-bottom: 0.4rem; }
+
+    .nav {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+
+    .nav a { color: var(--teal); }
+
+    .chapter-nav {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding-left: 1rem;
+      margin: 1.5rem 0;
+      color: var(--ink-soft);
+      font-style: italic;
+    }
+
+    code {
+      background: var(--surface);
+      padding: 0.15em 0.4em;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 1.5rem 1.25rem 4rem; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    {{ content }}
+  </div>
+</body>
+</html>
