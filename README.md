@@ -10,3 +10,8 @@ bundle exec jekyll serve --livereload
 ```
 
 Then open http://localhost:4000/flying-train/.
+
+## Analytics
+
+[PostHog - EU](https://eu.posthog.com/project/300810).
+Log in with GitHub SSO. 
