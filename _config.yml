@@ -4,6 +4,9 @@ url: https://alexf101.github.io
 baseurl: /flying-train
 theme: null
 
+plugins:
+  - jekyll-redirect-from
+
 collections:
   chapters:
     output: true

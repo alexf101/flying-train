@@ -3,6 +3,7 @@ layout: default
 title: Escaping the Bad Zone
 order: 1
 status: Drafted
+redirect_from: /01-familiarity/
 description: Before you can drive the loop, you need to know what the machine does well and where it falls apart.
 ---
 
