@@ -9,7 +9,7 @@ description: Before you can drive the loop, you need to know what the machine do
 
 <div class="nav"><a href="{{ '/' | relative_url }}">← Back to contents</a></div>
 
-# Familiarity
+# Escaping the Bad Zone
 
 {{ page.description }}
 
