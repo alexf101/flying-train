@@ -1,7 +1,7 @@
 <figure class="diagram">
 <svg viewBox="0 0 540 370" role="img" aria-labelledby="zones-title zones-desc">
   <title id="zones-title">The four zones of AI use</title>
-  <desc id="zones-desc">A grid of tasks you know how to do versus tasks you don't, against inconsistent versus reliable results. Tasks you know with inconsistent results: the Bad Zone, worse than doing it yourself, but start here and learn. Tasks you know with reliable results: the Good Zone, fast, useful results that you can check. Tasks you don't know with reliable results: the Dream Zone, doing things with AI you couldn't do without it. Tasks you don't know with inconsistent results: the Not Yet Zone, inaccurate, harmful outcomes you can't check yourself. Arrows run from Bad to Good to Dream.</desc>
+  <desc id="zones-desc">A grid of tasks you know how to do versus tasks you don't, against low versus high skill in using AI. Tasks you know with low AI skill: the Bad Zone, worse than doing it yourself, but start here and learn. Tasks you know with high AI skill: the Good Zone, fast, useful results that you can check. Tasks you don't know with high AI skill: the Dream Zone, doing things with AI you couldn't do without it. Tasks you don't know with low AI skill: the Not Yet Zone, inaccurate, harmful outcomes you can't check yourself. Arrows run from Bad to Good to Dream.</desc>
   <defs>
     <marker id="zones-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-soft)"/>
@@ -10,8 +10,8 @@
   <g font-size="15" fill="var(--ink-soft)" text-anchor="middle">
     <text x="155" y="24">Tasks you know how to do</text>
     <text x="425" y="24">Tasks you don't</text>
-    <text transform="translate(18 110) rotate(-90)">Reliable results</text>
-    <text transform="translate(18 290) rotate(-90)">Inconsistent results</text>
+    <text transform="translate(18 110) rotate(-90)">High AI skill</text>
+    <text transform="translate(18 290) rotate(-90)">Low AI skill</text>
   </g>
   <rect x="40" y="40" width="230" height="140" rx="8" fill="var(--teal)" fill-opacity="0.14" stroke="var(--teal)"/>
   <rect x="310" y="40" width="230" height="140" rx="8" fill="var(--accent)" fill-opacity="0.14" stroke="var(--accent)"/>
