@@ -112,7 +112,7 @@ These prompts invite the model to slow you down and question you rather than jum
 
 Model choice is less effective at reducing sycophancy - bigger is not necessarily better. My expectation is that AI companies targeting enterprise customers will aim to produce models with lower sycophancy than those targeting individual consumers, but don’t take my word for it, check the leaderboard below.
 
-Leaderboard: YoureAbsolutelyRight
+Leaderboard: [YoureAbsolutelyRight](https://typebulb.com/u/lab/you-re-absolutely-right/full)
 
 ### Cheating and Bullshit (reward-hacking)
 

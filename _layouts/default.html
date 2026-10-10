@@ -13,7 +13,7 @@
       --ink-soft: #5A6578;
       --accent: #8A6420;
       --teal: #3A7575;
-      --border: rgba(30, 42, 58, 0.08);
+      --border: rgba(30, 42, 58, 0.15);
     }
 
     @media (prefers-color-scheme: dark) {
@@ -24,7 +24,7 @@
         --ink-soft: #9BA3B2;
         --accent: #D4A245;
         --teal: #5AADAD;
-        --border: rgba(226, 224, 219, 0.08);
+        --border: rgba(226, 224, 219, 0.15);
       }
     }
 
@@ -85,6 +85,21 @@
       margin: 1.5rem 0;
     }
     blockquote > :last-child { margin-bottom: 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    th, td {
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--border);
+    }
+    th { font-weight: 600; border-bottom-width: 2px; }
 
     .diagram { margin: 2rem 0; }
     .diagram svg { display: block; width: 100%; height: auto; }
