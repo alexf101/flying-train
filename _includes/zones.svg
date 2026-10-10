@@ -1,7 +1,7 @@
 <figure class="diagram">
 <svg viewBox="0 0 540 370" role="img" aria-labelledby="zones-title zones-desc">
   <title id="zones-title">The four zones of AI use</title>
-  <desc id="zones-desc">A grid of tasks you know how to do versus tasks you don't, against inconsistent versus reliable results. Tasks you know with inconsistent results: the Bad Zone, worse than doing it yourself. Tasks you know with reliable results: the Good Zone, faster and checkable. Tasks you don't know with reliable results: the Dream Zone, beyond your own skills. Tasks you don't know with inconsistent results: the Not Yet Zone, ask a professional. Arrows run from Bad to Good to Dream.</desc>
+  <desc id="zones-desc">A grid of tasks you know how to do versus tasks you don't, against inconsistent versus reliable results. Tasks you know with inconsistent results: the Bad Zone, worse than doing it yourself, but where everyone starts and learns. Tasks you know with reliable results: the Good Zone, faster and checkable. Tasks you don't know with reliable results: the Dream Zone, beyond your own skills. Tasks you don't know with inconsistent results: the Not Yet Zone, ask a professional. Arrows run from Bad to Good to Dream.</desc>
   <defs>
     <marker id="zones-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-soft)"/>
@@ -21,13 +21,14 @@
     <g font-family="Bitter, Georgia, serif" font-size="22" font-weight="500">
       <text x="155" y="106">Good Zone</text>
       <text x="425" y="106">Dream Zone</text>
-      <text x="155" y="286">Bad Zone</text>
+      <text x="155" y="276">Bad Zone</text>
       <text x="425" y="286">Not Yet Zone</text>
     </g>
     <g font-size="16" fill="var(--ink-soft)">
       <text x="155" y="132">Faster, and you can check it</text>
       <text x="425" y="132">Beyond your own skills</text>
-      <text x="155" y="312">Worse than doing it yourself</text>
+      <text x="155" y="302">Worse than doing it yourself,</text>
+      <text x="155" y="322">but start here and learn</text>
       <text x="425" y="312">Ask a professional</text>
     </g>
   </g>
