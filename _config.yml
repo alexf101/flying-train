@@ -2,32 +2,11 @@ title: Driving the Flying Train
 description: A guide for office workers on mastering AI workflows
 url: https://alexf101.github.io
 baseurl: /flying-train
-remote_theme: pages-themes/minimal@v0.2.0
-
-plugins:
-  - jekyll-remote-theme
-
-exclude:
-  - README.md
-  - LICENSE
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
 
 collections:
   chapters:
     output: true
     permalink: /:title/
-    order:
-      - 01-familiarity.md
-      - 02-customisation.md
-      - 03-time-for-fidelity.md
-      - 04-big-tasks.md
-      - 05-workflow-management.md
-      - 06-evals.md
-      - 07-learning-process.md
-      - 08-learning-knowledge.md
+
+exclude:
+  - README.md
