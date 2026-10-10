@@ -13,7 +13,7 @@
     <text transform="translate(18 110) rotate(-90)">High AI skill</text>
     <text transform="translate(18 290) rotate(-90)">Low AI skill</text>
   </g>
-  <rect x="40" y="40" width="230" height="140" rx="8" fill="var(--teal)" fill-opacity="0.14" stroke="var(--teal)"/>
+  <rect x="40" y="40" width="230" height="140" rx="8" fill="var(--sky)" fill-opacity="0.14" stroke="var(--sky)"/>
   <rect x="310" y="40" width="230" height="140" rx="8" fill="var(--accent)" fill-opacity="0.14" stroke="var(--accent)"/>
   <rect x="40" y="220" width="230" height="140" rx="8" fill="var(--surface)" stroke="var(--ink-soft)"/>
   <rect x="310" y="220" width="230" height="140" rx="8" fill="none" stroke="var(--ink-soft)" stroke-dasharray="6 5"/>

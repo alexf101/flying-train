@@ -7,24 +7,26 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&family=Nunito+Sans:wght@400;500;600;700&display=swap">
   <style>
     :root {
-      --ground: #F7F6F2;
-      --surface: #EFEDE7;
-      --ink: #1E2A3A;
-      --ink-soft: #5A6578;
-      --accent: #8A6420;
-      --teal: #3A7575;
-      --border: rgba(30, 42, 58, 0.15);
+      --ground: #F4F7FB;
+      --surface: #E4ECF6;
+      --ink: #15203A;
+      --ink-soft: #475571;
+      --accent: #B23A0A;
+      --sky: #1E63B0;
+      --flame: #F5A524;
+      --border: rgba(21, 32, 58, 0.15);
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --ground: #141A24;
-        --surface: #1C2330;
-        --ink: #E2E0DB;
-        --ink-soft: #9BA3B2;
-        --accent: #D4A245;
-        --teal: #5AADAD;
-        --border: rgba(226, 224, 219, 0.15);
+        --ground: #0F1828;
+        --surface: #1A2640;
+        --ink: #E8EDF5;
+        --ink-soft: #A3B0C6;
+        --accent: #FF8A4C;
+        --sky: #6CB4F0;
+        --flame: #F5A524;
+        --border: rgba(232, 237, 245, 0.15);
       }
     }
 
@@ -52,8 +54,17 @@
     }
 
     h1 { font-size: 2.2rem; font-weight: 700; line-height: 1.2; margin-bottom: 1rem; }
-    h2 { font-size: 1.4rem; font-weight: 500; margin: 2rem 0 0.8rem; }
-    h3 { font-size: 1.1rem; font-weight: 500; margin: 1.5rem 0 0.6rem; }
+    h1::after {
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 4px;
+      margin-top: 0.75rem;
+      border-radius: 2px;
+      background: var(--flame);
+    }
+    h2 { font-size: 1.4rem; font-weight: 500; margin: 2rem 0 0.8rem; color: var(--sky); }
+    h3 { font-size: 1.1rem; font-weight: 500; margin: 1.5rem 0 0.6rem; color: var(--sky); }
 
     p { margin-bottom: 1rem; max-width: 600px; }
 
@@ -76,7 +87,7 @@
       font-size: 0.85rem;
     }
 
-    .nav a { color: var(--teal); }
+    .nav a { color: var(--sky); }
 
     blockquote {
       border-left: 3px solid var(--accent);
