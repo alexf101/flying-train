@@ -2,6 +2,7 @@ title: Driving the Flying Train
 description: A guide for office workers on mastering AI workflows
 url: https://alexf101.github.io
 baseurl: /flying-train
+theme: null
 
 collections:
   chapters:
@@ -10,3 +11,6 @@ collections:
 
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
