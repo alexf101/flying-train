@@ -1,0 +1,39 @@
+<figure class="diagram">
+<svg viewBox="0 0 540 370" role="img" aria-labelledby="zones-title zones-desc">
+  <title id="zones-title">The four zones of AI use</title>
+  <desc id="zones-desc">On tasks you know how to do, AI can leave you in the Bad Zone, worse off than doing it yourself, or the Good Zone, faster and checkable. On tasks you don't know how to do, it can take you to the Dream Zone, beyond your own skills, or the Not Yet Zone, where you should ask a professional. The path runs from Bad to Good to Dream.</desc>
+  <defs>
+    <marker id="zones-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-soft)"/>
+    </marker>
+  </defs>
+  <g font-size="15" fill="var(--ink-soft)" text-anchor="middle">
+    <text x="155" y="24">Tasks you know how to do</text>
+    <text x="425" y="24">Tasks you don't</text>
+    <text transform="translate(18 110) rotate(-90)">Good result</text>
+    <text transform="translate(18 290) rotate(-90)">Poor result</text>
+  </g>
+  <rect x="40" y="40" width="230" height="140" rx="8" fill="var(--teal)" fill-opacity="0.14" stroke="var(--teal)"/>
+  <rect x="310" y="40" width="230" height="140" rx="8" fill="var(--accent)" fill-opacity="0.14" stroke="var(--accent)"/>
+  <rect x="40" y="220" width="230" height="140" rx="8" fill="var(--surface)" stroke="var(--ink-soft)"/>
+  <rect x="310" y="220" width="230" height="140" rx="8" fill="none" stroke="var(--ink-soft)" stroke-dasharray="6 5"/>
+  <g text-anchor="middle" fill="var(--ink)">
+    <g font-family="Bitter, Georgia, serif" font-size="22" font-weight="500">
+      <text x="155" y="106">Good Zone</text>
+      <text x="425" y="106">Dream Zone</text>
+      <text x="155" y="286">Bad Zone</text>
+      <text x="425" y="286">Not Yet Zone</text>
+    </g>
+    <g font-size="16" fill="var(--ink-soft)">
+      <text x="155" y="132">Faster, and you can check it</text>
+      <text x="425" y="132">Beyond your own skills</text>
+      <text x="155" y="312">Worse than doing it yourself</text>
+      <text x="425" y="312">Ask a professional</text>
+    </g>
+  </g>
+  <g stroke="var(--ink-soft)" stroke-width="2" marker-end="url(#zones-arrow)">
+    <line x1="155" y1="218" x2="155" y2="184"/>
+    <line x1="272" y1="110" x2="306" y2="110"/>
+  </g>
+</svg>
+</figure>
