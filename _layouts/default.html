@@ -11,9 +11,7 @@
       --surface: #EFEDE7;
       --ink: #1E2A3A;
       --ink-soft: #5A6578;
-      --ink-faint: #8E95A3;
-      --accent: #B8862E;
-      --accent-soft: rgba(184, 134, 46, 0.12);
+      --accent: #8A6420;
       --teal: #3A7575;
       --border: rgba(30, 42, 58, 0.08);
     }
@@ -24,9 +22,7 @@
         --surface: #1C2330;
         --ink: #E2E0DB;
         --ink-soft: #9BA3B2;
-        --ink-faint: #6B7385;
         --accent: #D4A245;
-        --accent-soft: rgba(212, 162, 69, 0.14);
         --teal: #5AADAD;
         --border: rgba(226, 224, 219, 0.08);
       }
@@ -59,12 +55,18 @@
     h2 { font-size: 1.4rem; font-weight: 500; margin: 2rem 0 0.8rem; }
     h3 { font-size: 1.1rem; font-weight: 500; margin: 1.5rem 0 0.6rem; }
 
-    p { margin-bottom: 1rem; color: var(--ink-soft); max-width: 600px; }
+    p { margin-bottom: 1rem; max-width: 600px; }
 
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .nav a, .chapter-nav a { text-decoration: none; }
+    .nav a:hover, .chapter-nav a:hover { text-decoration: underline; }
 
-    ul, ol { margin: 0 0 1rem 1.2rem; color: var(--ink-soft); }
+    ul, ol { margin: 0 0 1rem 1.2rem; }
     li { margin-bottom: 0.4rem; }
 
     .nav {
